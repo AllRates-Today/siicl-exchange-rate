@@ -1,0 +1,76 @@
+{
+  "name": "siicl-exchange-rate",
+  "version": "1.3.32",
+  "description": "Official Servicio de Impuestos Internos (Chile) daily exchange rates — 1 currency vs CLP, history since 2013. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "siicl",
+    "servicio-de-impuestos-internos",
+    "servicio",
+    "impuestos",
+    "internos",
+    "exchange-rate",
+    "exchange-rates",
+    "exchange-rate-api",
+    "exchangerate",
+    "exchange rate",
+    "exchange rates",
+    "clp-exchange-rate",
+    "currency",
+    "forex",
+    "fx",
+    "clp",
+    "currency-api",
+    "currency-exchange-rates",
+    "forex-api",
+    "currency-conversion",
+    "currency-exchange",
+    "currency-rates",
+    "tax-authority",
+    "official-rates",
+    "chile",
+    "api",
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
+  ],
+  "homepage": "https://allratestoday.com/tax-authority-rates-api/siicl/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/siicl-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/siicl-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
